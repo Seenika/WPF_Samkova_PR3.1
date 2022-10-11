@@ -28,7 +28,7 @@ namespace WPF_Samkova_PR3._1
         private void PlusTri3_Click(object sender, RoutedEventArgs e)
         {
             //Значение 3 в лейбле превращаем в цифру для счёта
-            double plustri31 = double.Parse(PlusTri3.);
+            int plustri = Int32.Parse(PlusTri3.Content);
         }
     }
 }
