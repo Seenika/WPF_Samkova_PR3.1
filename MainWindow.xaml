@@ -30,33 +30,33 @@
         <Label x:Name="Odin" Content="1" FontSize="120" Margin="30,30,30,30" Grid.Row="1" HorizontalContentAlignment="Center" Background="White" Grid.Column="2"/>
         <Label x:Name="Dva" Content="2" FontSize="120" Margin="30,30,30,30" Grid.Row="1" HorizontalContentAlignment="Center" Background="White" Grid.Column="1"/>
 
-        <Button x:Name="PlusTri3" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Click="PlusTri3_Click"/>
-        <Button x:Name="PlusDva3" Content="+2" Grid.Row="4" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White"/>
-        <Button x:Name="PlusOdin3" Content="+1" Grid.Row="5" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="PlusTri3" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Click="PlusTri3_Click"/>
+        <Button x:Name="PlusDva3" Content="+2" Grid.Row="4" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="PlusOdin3" Content="+1" Grid.Row="5" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White"/>
 
-        <Button x:Name="MinusTri3" Content="-3" Grid.Row="8" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White"/>
-        <Button x:Name="MinusDva3" Content="-2" Grid.Row="7" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White"/>
-        <Button x:Name="MinusOdin3" Content="-1" Grid.Row="6" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White"/>
-
-
-        <Button x:Name="PlusTri2" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
-        <Button x:Name="PlusDva2" Content="+2" Grid.Row="4" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
-        <Button x:Name="PlusOdin2" Content="+1" Grid.Row="5" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
-
-        <Button x:Name="MinusTri2" Content="-3" Grid.Row="8" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
-        <Button x:Name="MinusDv2" Content="-2" Grid.Row="7" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
-        <Button x:Name="MinusOdi2" Content="-1" Grid.Row="6" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
+        <Button x:Name="MinusTri3" Content="-3" Grid.Row="8" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="MinusDva3" Content="-2" Grid.Row="7" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="MinusOdin3" Content="-1" Grid.Row="6" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White"/>
 
 
-        <Button x:Name="PlusTri1" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="58,11,48,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
-        <Button x:Name="PlusDva1" Content="+2" Grid.Row="4" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="58,11,48,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
-        <Button x:Name="PlusOdin1" Content="+1" Grid.Row="5" BorderBrush="#FF95FF9F" Background="#FF52B248" Margin="58,11,48,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+        <Button x:Name="PlusTri2" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
+        <Button x:Name="PlusDva2" Content="+2" Grid.Row="4" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
+        <Button x:Name="PlusOdin2" Content="+1" Grid.Row="5" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
 
-        <Button x:Name="MinusTri1" Content="-3" Grid.Row="8" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="58,10,48,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
-        <Button x:Name="MinusDva1" Content="-2" Grid.Row="7" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="58,10,48,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
-        <Button x:Name="MinusOdin1" Content="-1" Grid.Row="6" BorderBrush="#FF95FF9F" Background="#FFB24848" Margin="58,10,48,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+        <Button x:Name="MinusTri2" Content="-3" Grid.Row="8" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
+        <Button x:Name="MinusDv2" Content="-2" Grid.Row="7" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
+        <Button x:Name="MinusOdi2" Content="-1" Grid.Row="6" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="53,10,53,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="1"/>
 
 
-        <Button x:Name="Sbros" Content="сброс" Grid.Column="2" Grid.Row="9" FontSize="35" Margin="58,0,10,0" Background="#FFD4B561" BorderBrush="#FFB28A44" Foreground="White"/>
+        <Button x:Name="PlusTri1" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="58,11,48,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+        <Button x:Name="PlusDva1" Content="+2" Grid.Row="4" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="58,11,48,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+        <Button x:Name="PlusOdin1" Content="+1" Grid.Row="5" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="58,11,48,10" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+
+        <Button x:Name="MinusTri1" Content="-3" Grid.Row="8" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="58,10,48,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+        <Button x:Name="MinusDva1" Content="-2" Grid.Row="7" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="58,10,48,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+        <Button x:Name="MinusOdin1" Content="-1" Grid.Row="6" BorderBrush="#FF95FF9F" Background="#FFE24B4B" Margin="58,10,48,11" FontSize="24" FontWeight="Bold" Foreground="White" Grid.Column="2"/>
+
+
+        <Button x:Name="Sbros" Content="сброс" Grid.Column="2" Grid.Row="9" FontSize="35" Margin="58,0,10,0" Background="#FFF7C94C" BorderBrush="#FFB28A44" Foreground="White"/>
     </Grid>
 </Window>
