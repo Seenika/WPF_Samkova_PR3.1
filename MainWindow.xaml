@@ -26,8 +26,8 @@
         </Grid.RowDefinitions>
 
         <Label x:Name="Schotchik" Content="Счётчик" Foreground="White" Grid.ColumnSpan="3" Margin="186,0,182,0" FontSize="36" HorizontalContentAlignment="Center" BorderBrush="Black" Background="#00000000"/>
-        <Label x:Name="Tri" Content="3" FontSize="120" Margin="30,30,30,30" Grid.Row="1" HorizontalContentAlignment="Center" Background="White"/>
-        <Label x:Name="Odin" Content="1" FontSize="120" Margin="30,30,30,30" Grid.Row="1" HorizontalContentAlignment="Center" Background="White" Grid.Column="2"/>
+        <TextBlock x:Name="Tri" Text="3" Margin="30,30,30,30" Grid.Row="1" Background="White" FontSize="120" TextAlignment="Center" />
+        <TextBlock x:Name="Odin" Text="1" Grid.Column="2" Margin="30,30,30,30" Grid.Row="1" FontSize="120" TextAlignment="Center" Background="White"/>
         <Label x:Name="Dva" Content="2" FontSize="120" Margin="30,30,30,30" Grid.Row="1" HorizontalContentAlignment="Center" Background="White" Grid.Column="1"/>
 
         <Button x:Name="PlusTri3" Content="+3" Grid.Row="3" BorderBrush="#FF95FF9F" Background="#FF83D87A" Margin="53,11,53,10" FontSize="24" FontWeight="Bold" Foreground="White" Click="PlusTri3_Click"/>
